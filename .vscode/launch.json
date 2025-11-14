@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: GTFS Scraper",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/gtfsscraperv0.4.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "env": {},
+            "args": [],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: GTFS Scraper (Debug All Code)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/gtfsscraperv0.4.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "env": {},
+            "args": [],
+            "justMyCode": false
+        },
+        {
+            "name": "Python: GTFS Scraper (Stop on Entry)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/gtfsscraperv0.4.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": true,
+            "env": {},
+            "args": [],
+            "justMyCode": true
+        }
+    ]
+}

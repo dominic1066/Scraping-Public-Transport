@@ -1,0 +1,7 @@
+scripts to capture wellington bus times, by bus stop.
+
+needs lxml and gtfs-realtime-bindings to be installed.
+
+gtfsscraperv0.4.py was salvaged from Hashigo Zake where we used it to create a file called times.xml, containing
+the buses en route to any of three nearby bus stops. It would then be uploaded by ftp to our web server so that
+pages (such as our on-screen menu) could incorporate bus info the the benefit of customers.
